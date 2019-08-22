@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function chechname(srt) {
+        let abc = /^[_a-z0-9]{6,}$/;
+        if(abc.test(srt)){
+            return true;
+        }
+        return false;
+    }
+    let a = 'abcde';
+    console.log(chechname(a));
+</script>
+</body>
+</html>
